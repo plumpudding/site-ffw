@@ -24,6 +24,7 @@ GLUON_SITE_PACKAGES := \
   haveged \
   iptables \
   iwinfo \
+  iperf \
 
 ifeq ($(GLUON_TARGET),x86-generic)
 GLUON_SITE_PACKAGES += \

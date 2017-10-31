@@ -45,3 +45,5 @@ GLUON_LANGS ?= de en fr
 
 GLUON_TARGET ?= ar71xx-generic
 GLUON_BRANCH := stable
+
++GLUON_ATH10K_MESH ?= ibss

@@ -10,12 +10,11 @@ GLUON_SITE_PACKAGES := \
   gluon-config-mode-mesh-vpn \
   gluon-ebtables-filter-multicast \
   gluon-ebtables-filter-ra-dhcp \
-  gluon-luci-admin \
-  gluon-luci-autoupdater \
-  gluon-luci-portconfig \
-  gluon-luci-wifi-config \
-  gluon-luci-mesh-vpn-fastd \
-  gluon-next-node \
+  gluon-web-admin \
+  gluon-web-autoupdater \
+  gluon-web-portconfig \
+  gluon-web-wifi-config \
+  gluon-web-mesh-vpn-fastd \
   gluon-mesh-vpn-fastd \
   gluon-radvd \
   gluon-setup-mode \

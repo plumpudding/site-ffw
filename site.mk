@@ -1,6 +1,5 @@
 GLUON_SITE_PACKAGES := \
   gluon-mesh-batman-adv-15 \
-  gluon-alfred \
   gluon-respondd \
   gluon-autoupdater \
   gluon-config-mode-autoupdater \
@@ -24,7 +23,6 @@ GLUON_SITE_PACKAGES := \
   haveged \
   iptables \
   iwinfo \
-  iperf \
 
 ifeq ($(GLUON_TARGET),x86-generic)
 GLUON_SITE_PACKAGES += \

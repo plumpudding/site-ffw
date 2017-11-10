@@ -15,6 +15,7 @@ GLUON_SITE_PACKAGES := \
   gluon-web-network \
   gluon-web-wifi-config \
   gluon-web-mesh-vpn-fastd \
+  gluon-web-private-wifi \
   gluon-mesh-vpn-fastd \
   gluon-radvd \
   gluon-setup-mode \
@@ -44,3 +45,4 @@ GLUON_TARGET ?= ar71xx-generic
 GLUON_BRANCH := stable
 
 GLUON_ATH10K_MESH ?= ibss
+GLUON_REGION := eu

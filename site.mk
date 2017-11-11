@@ -46,3 +46,19 @@ GLUON_BRANCH := stable
 
 GLUON_ATH10K_MESH ?= ibss
 GLUON_REGION := eu
+
+
+ifeq ($(GLUON_TARGET),ar71xx-generic)
+	GLUON_SITE_PACKAGES += \
+		iperf \
+		mtr \
+		vim
+endif
+
+ifeq ($(GLUON_TARGET),x86-64)
+	GLUON_SITE_PACKAGES += \
+		iperf \
+		mtr \
+		vim \
+		vnstat
+endif
